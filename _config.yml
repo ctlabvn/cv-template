@@ -1,5 +1,6 @@
 # Site Settings
 title: My Resume
+description: "An Agiletech Viet Nam staff resume"
 url: 'http://agiletech.vn'
 baseurl: 'https://agiletechvn.github.io' #change it according to your repository name
 about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
