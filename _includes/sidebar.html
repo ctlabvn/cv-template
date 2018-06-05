@@ -22,11 +22,17 @@
        <ul class="list-unstyled contact-list">
 
           {% if site.email %}
-           <li class="email"><i class="fa fa-envelope"></i><a href="mailto: {{site.email}}">{{site.email}}</a></li>
+           <li class="email"><i class="fa fa-envelope"></i>
+             <!--// <a href="mailto: {{site.email}}">{{site.email}}</a>-->
+              <a href="mailto:contact@agiletech.vn">contact@agiletech.vn</a>
+          </li>
            {% endif %}
 
            {% if site.phone %}
-           <li class="phone"><i class="fa fa-phone"></i><a href="tel:{{site.phone}}">{{site.phone}}</a></li>
+           <li class="phone"><i class="fa fa-phone"></i>
+              <!--// <a href="tel:{{site.phone}}">{{site.phone}}</a>-->
+              <a href="tel:+84936281059">+84936281059</a>
+          </li>
            {% endif %}
 
            {% if site.website %}
