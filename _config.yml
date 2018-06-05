@@ -1,5 +1,6 @@
 # Site Settings
 title: My Resume
+description: "An Agiletech Viet Nam staff resume"
 url: 'http://agiletech.vn'
 baseurl: 'https://agiletechvn.github.io' #change it according to your repository name
 about: True # set to False or comment line if you want to remove the "How to use?" in the sidebar
@@ -35,7 +36,7 @@ twitter: '@webjeda'
 #education_in_main: True
 
 # Tracker
-analytics: UA-83979019-1
+analytics: UA-119187154-1
 
 # Build settings
 encoding: "utf-8"
