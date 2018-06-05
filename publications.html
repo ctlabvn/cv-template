@@ -11,9 +11,8 @@
 
   {% for publication in site.data.publications.publications %}
     <div class="item">
-      <div class="publication-title">{{ publication.title }}</div>
-      <div class="publication-authors">{{ publication.authors }}</div>
-      <div class="publication-conference">{{ publication.conference }}</div>
+      <div class="publication-title"><a target="_blank" href="{{ publication.conference }}">{{ publication.title }}</a></div>
+      <div class="publication-authors">{{ publication.authors }}</div>      
     </div><!--//item-->
   {% endfor %}
 
